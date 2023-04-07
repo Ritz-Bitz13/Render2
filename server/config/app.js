@@ -49,7 +49,7 @@ db.on("error", function () {
 db.once("open", function () {
     console.log(`Connected to MongoDB at ${DBConfig.HostName}`);
 });
-mongoose_1.default.connect(DBConfig.LocalURI);
+mongoose_1.default.connect(DBConfig.RemoteURI);
 app.set('views', path_1.default.join(__dirname, '../views'));
 app.set('view engine', 'ejs');
 app.use((0, morgan_1.default)('dev'));
