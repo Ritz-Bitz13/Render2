@@ -1,0 +1,22 @@
+
+{
+    "contacts" : [
+        {
+            "FullName" : "Stephen Strange",
+            "ContactNumber" : "123-456-4656",
+            "EmailAddress" : "deleting@hotmaik.com"
+        },
+
+        {
+            "FullName" : "Peter Parker",
+            "ContactNumber" : "333-555-4321",
+            "EmailAddress" : "PParker@hotmail.com"
+        },
+
+        {
+            "FullName" : "Green Goblin",
+            "ContactNumber" : "333-555-2222",
+            "EmailAddress" : "GGoblin@domain.com"
+        }
+    ]
+}
